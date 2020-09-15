@@ -1,0 +1,134 @@
+*{
+    
+}
+.container{
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    
+}
+.mcol{
+    display: grid;
+    grid-template-columns: 20% 80%;
+    border: 2px solid gray;
+    box-shadow: 1px 1px 1px;
+}
+
+.mcoll{
+  
+}
+
+
+
+/*---------Left Navbar------------*/
+.nav-header{
+    text-align: center;
+}
+.img{
+    max-width: 40px;
+    width: 100%;
+    height: auto;
+}
+.lnavbar{
+    margin: 0px;
+    padding: 0px;
+}
+
+.lnavbar ul{
+    overflow: hidden;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.lnavbar ul a{
+    text-decoration: none;
+    color: black;
+    text-align: left;
+    font-family: arial;
+    padding: 10px;
+    display: block;
+  
+}
+
+.lnavbar ul a:hover{
+    cursor: pointer;
+}
+
+.lnavbar ul a:hover{
+    color: #498ED1;
+}
+
+
+/*---------Horizontal Navbar------------*/
+.nav-header{
+    text-align: center;
+}
+.img{
+    max-width: 40px;
+    width: 100%;
+    height: auto;
+}
+.hnavbar{
+    margin: 0px;
+    padding: 0px;
+    background-color: white;
+}
+
+.hnavbar ul{
+    overflow: hidden;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.hnavbar ul a{
+    text-decoration: none;
+    float: left;
+    color: black;
+    text-align: left;
+    font-family: arial;
+    padding: 10px;
+    display: block;
+  
+}
+
+.hnavbar ul a:hover{
+    cursor: pointer;
+}
+
+.hnavbar ul a:hover{
+    color: #498ED1;
+}
+
+/*-----------------*/
+
+.col50{
+    display: grid;
+    grid-template-columns: auto auto;
+
+}
+
+.col3{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.col1{
+    display: grid;
+    grid-template-columns: auto;
+}
+
+input{
+    border:1px solid gray;
+    box-shadow: 1px 1px 1px gray;
+    min-height: 30px;
+    width: 50%;
+    max-width: 100%;
+    height: auto;
+    border-radius: 3px;
+    margin: 10px;
+}
+.col33{
+    padding: 10px;
+}
