@@ -39,6 +39,7 @@
 .lnavbar{
     margin: 0px;
     padding: 0px;
+    min-width: 300px;
     box-shadow: 0px 2px 3px 0px gray inset;
 }
 
@@ -212,9 +213,20 @@ select,option{
       text-align: right;
 }
 /*//////////////////////////////////////////////////////*/
-@media only screen and (max-width: 1000px){
+@media only screen and (max-width: 1200px){
+    .col3{
+        grid-template-columns: 50% 50%;
+    }
+}
+@media only screen and (max-width: 992px){
+    .col3{
+        grid-template-columns: 100%;
+    }
     .lnavbar{
         display: none;
+    }
+    .mcol{
+        grid-template-columns: 100%;
     }
 }
 
