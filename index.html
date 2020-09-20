@@ -4,23 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="index.css">
     <title>Document</title>
 </head>
 <body>
 
     <div class="container">
         <div class="mcol">
-                <div class="lnavbar">
+                <div class="lnavbar" id="collapse.">
                     <ul>
-                        <div class="nav-header"><img src="img/logo.png" alt="logo" width="190" style="margin-top:10px;"></div>
-                        <a href="#" style="font-size: 20px;"><i class="fas fa-tachometer-alt icon"></i>&nbsp;&nbsp;Dashboard</a>
+                        <div class="nav-header"><img src="img/logo.png" alt="logo" width="" class="logo"></div>
+                        <a href="#"><i class="fas fa-tachometer-alt icon"></i>&nbsp;&nbsp;Dashboard</a>
                         <a href="#"><i class="far fa-user icon"></i>&nbsp;&nbsp;&nbsp;Client Details</a>
                         <a href="#"><i class="far fa-edit icon"></i>&nbsp;&nbsp;&nbsp;Enquiry Details</a>
                         <a href="#"><i class="far fa-calendar-alt icon"></i>&nbsp;&nbsp;&nbsp;Work Calender</a>
                         <a href="#"><i class="far fa-bell icon"></i>&nbsp;&nbsp;&nbsp;Notifications</a>
                         <a href="#"><i class="far fa-user icon"></i>&nbsp;&nbsp;&nbsp;Profile</a>
-                        <a href="#"><i class="fas fa-sign-out-alt icon"></i>&nbsp;&nbsp;&nbsp;Logout</a>
+                        <a href="#" class="logout"><i class="fas fa-sign-out-alt icon"></i>&nbsp;&nbsp;&nbsp;Logout</a>
                     </ul>
 
                 </div>
@@ -28,81 +28,82 @@
             <div style="background-color:#EAF8EF ">
                 <div class="hnavbar">
                     <ul class="lul">
-                        <a href="#" style="float: left;vertical-align: middle;margin-top: 10px;margin-left:10px;width: 40px;" ><i class="fas fa-align-left "></i>&nbsp;&nbsp;&nbsp;</a>
-                        <a href="#" style="float: right;"><img src="img/vivek.jpg" style="border-radius: 50%; float: left;" alt="" width="40">&nbsp;&nbsp;<i class="fas fa-angle-down" style="font-size: 20px;"></i></a>
-                        <a href="#" style="float: right;"><div style="font-size:16px;color:black;">Welcome Back</div><div style="font-size:12px;color:gray;" class="">Vivek</div></a>
-                        <a href="#" style="float: right;"><div style="font-size:16px;color:black;"><i class="far fa-bell" style="font-size: 26px;margin-top: 3px;"></i></div></a>
+                    
+                        <a href="#" style="float: left;vertical-align: middle;margin-top: 10px;margin-left:10px;width: 40px;" ><i class="fas fa-align-left " style="font-size: 20px; color: gray;"></i>&nbsp;&nbsp;&nbsp;</a>
+                        <a href="#" style="float: right;"><img src="img/vivek.jpg" style="border-radius: 50%; float: left;" alt="" width="40">&nbsp;&nbsp;<i class="fas fa-angle-down" style="font-size: 20px;margin-top: 10px;color: gray;"></i></a>
+                        <a href="#" style="float: right;"><div style="font-size:14px;color:black;padding-top: 5px;">Welcome Back</div><div style="font-size:11px;color:gray;" class="">Vivek</div></a>
+                        <a href="#collapse" style="float: right;"><div style=";padding-top: 3px;margin-right: 10px;"><i class="far fa-bell" style="font-size: 26px;margin-top: 3px;color: gray;"></i></div></a>
                     </ul>
                 </div>
-                <div style="padding: 10px;font-family: arial;">
-                    <div class="col3">
+                <div style="padding: 5px;font-family: arial;">
+                    <div class="col2">
                         <div>
                             <div style="color:#1075CA;font-size: 30px; margin: 10px; font-weight: 600;">Add New Client</div>
                             <div style="color:gray;font-size: 14px; margin: 10px; font-weight: 600;">Marketing & Sales</div>
                             <div style="color:gray;font-size: 12px; margin: 10px; font-weight: 600;">Home > <span style="color:#1075CA;">Add New Client</span></div>
                         </div>
-                        <div></div>
-                        <div style="text-align: right; align-items:right;">
-                            <button class="bcbtn">View Client&nbsp;&nbsp;<i class="far fa-eye"></i></button>
+                        
+                        <div style="">
+                            <button class="bcbtn">View Client&nbsp;&nbsp;&nbsp;&nbsp;<i class="far fa-eye"></i></button>
                         </div>
                     </div>
                     <div class="col1">
-                        <div><div style="color:#2D3139;font-size: 17px; margin: 10px; font-weight: 600;">Personal Information</div></div>
+                        <div><div class="personal">Personal Information</div></div>
                     </div>
                     <div class="col3">
                         <div class="col33">
-                            <input type="text" name="" id="" placeholder="Client Name" style="border: ">
-                            <input type="text" name="" id="" placeholder="Address" style="border: ">
-                            <input type="text" name="" id="" placeholder="City" style="border: ">
+                            <input type="text" name="client_name" id="client_name" placeholder="Client Name" style="border: ">
+                            <input type="text" name="address" id="address" placeholder="Address" style="border: ">
+                            <input type="text" name="city" id="city" placeholder="City" style="border: ">
 
                         </div>
                         <div class="col33"> 
-                            <input type="text" name="" id="" placeholder="Phone Number" style="border: ">
-                            <select name="" id="" placeholder="Select Country">
+                            <input type="text" name="phone" id="phone" placeholder="Phone Number" style="border: ">
+                            <select name="country" id="country" placeholder="Select Country">
                                 <option value="">Select Country</option>
-                                <option value="">India</option>
+                                <option value="Inida">India</option>
 
                             </select>
-                            <input type="text" name="" id="" placeholder="Pincode" style="border: ">
+                            <input type="text" name="pincode" id="pincode" placeholder="Pincode" style="border: ">
                         </div>
                         <div class="col33">
-                            <input type="text" name="" id="" placeholder="Email Id" style="border: ">
-                            <select name="" id="" placeholder="Select Country">
+                            <input type="email" name="email" id="email" placeholder="Email Id" style="border: ">
+                            <select name="country1" id="country1" placeholder="Select Country">
                                 <option value="">Select State</option>
-                                <option value="">Uttar Pradesh</option>
+                                <option value="Uttar Pradesh">Uttar Pradesh</option>
                             </select>
-                            <input type="text" name="" id="" placeholder="Official Contact Number" style="border: ">
+                            <input type="text" name="contact_number" id="contact_number" placeholder="Official Contact Number" style="border: ">
                         </div>
                     </div>
                     <div class="col1">
-                        <div><div style="color:#2D3139;font-size: 17px; margin: 10px; font-weight: 600;">Enquiry Detail</div></div>
+                        <div><div class="enquiry">Enquiry Detail</div></div>
                     </div>
                     <div class="col3">
                         <div class="col33">
-                            <select name="" id="" placeholder="">
+                            <select name="enquiry_type" id="enquiry_type" placeholder="">
                                 <option value="">Type of Enquiry</option>
-                                <option value="">Admission</option>
+                                <option value="Admission">Admission</option>
                             </select>
-                            <select name="" id="" >
+                            <select name="enquiry_status" id="enquiry_status" >
                                 <option value="">Enquiry Status</option>
-                                <option value="">Done</option>
+                                <option value="Done">Done</option>
                             </select>
                         </div>
                         <div class="col33"> 
-                            <input type="text" name="" id="" placeholder="Enquiry Detail" style="border: ">
-                            <input type="text" name="" id="" placeholder="Phone Number" style="border: ">
+                            <input type="text" name="enquiry_detail" id="enquiry_detail" placeholder="Enquiry Detail" style="border: ">
+                            <input type="text" name="phone_number" id="phone_number" placeholder="Phone Number" style="border: ">
                         </div>
                         <div class="col33">
-                            <input type="date" name="" id="" placeholder="Today's Date" style="border: ">
-                            <select name="" id="" >
+                            <input type="date" name="to_date" id="to_date" placeholder="Today's Date" style="border: ">
+                            <select name="Enquiry Status" id="" >
                                 <option value="">Current Enquiry Status</option>
-                                <option value="">Ready</option>
+                                <option value="Ready">Ready</option>
                             </select>
                         </div>
                     </div>
                     <div class="col2">
-                        <div style="text-align: right;"><button class="ancbtn">Add New Client</button></div>
-                        <div><button class="cbtn">Cancel</button></div>
+                        <div class="div_ancbtn"><button class="ancbtn">Add New Client</button></div>
+                        <div class="div_cbtn"><button class="cbtn" >Cancel</button></div>
                     </div>
                 </div>
             </div>
@@ -113,5 +114,4 @@
     
 </body>
 </html>
-
 

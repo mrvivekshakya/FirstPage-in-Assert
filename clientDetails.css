@@ -1,0 +1,171 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: arial;
+    color: #1B1B1F ;
+}
+/*---------------Main Container-----------------------------------------------------------*/
+.main-container{
+    display: flex;
+    width: 100%;
+    max-width: 100%;
+}
+.main-item{
+    padding: 0.5%px 1% 0.5% 1%;
+    flex-basis: 13%;
+    height: auto;
+    max-height: 100%;
+}
+#main-item-1{
+    min-width: 200px;
+}
+#main-item-2{
+    flex-grow: 1;
+    
+}
+
+@media only screen and (max-width: 1000px){
+    #main-item-1{
+        display: none;
+    }
+}
+@media only screen and (max-width: 768px){
+    #main-item-1{
+        position: absolute;
+        order:3;
+    }
+}
+
+/*---------------./Main Container-----------------------------------------------------------*/
+/*---------------Header Navbar Conatainer-----------------------------------------------------------*/
+.header-container{
+    display: flex;
+    align-items: center;
+    padding: 10px 40px 10px 40px;
+    
+}
+.header-item{
+    flex-basis: 33.3333%;
+}
+#header-item-1{
+    cursor: pointer;
+}
+#header-item-2{
+    flex-grow: 8;
+}
+#header-item-3{
+    max-width: 210px;
+}
+
+/*-----Profilebar*/
+.profilebar-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.profilebar-item{
+    
+}
+#profilebar-item-1{
+    color: gray;
+    padding-right: 20px;
+}
+#profilebar-item-2{
+    font-size: 13px;
+    font-weight: 600;
+    padding-right: 7px;;
+}
+@media only screen and (max-width: 870px){
+    #profilebar-item-2{
+        display: none;
+        padding-right:0px;
+    }
+    #header-item-3{
+        max-width: 100px;
+    }
+    #profilebar-item-1{
+        padding-right: 5px;
+    }
+}
+.vivek{
+    color: gray;
+    font-size: 11px;
+}
+.profile{
+    border-radius: 50%;
+}
+.profilebar-icon{
+    color: gray;
+    font-size: 90px;
+}
+/*-----./Profilebar*/
+
+
+/*---------------./Header Navbar Conatainer-----------------------------------------------------------*/
+
+/*----------------Right Bar----------------------------------------------------------------------------*/
+.rightbar{
+    background-color: #EAF8EF;
+    padding: 0.5% 3% 0.5% 3%;
+    /* padding: 10px 20px 10px 20px; */
+    width: 100%;
+    max-width: 94%;
+}
+.heading-container{
+    display: flex;
+    padding-top: 20px;
+    flex-wrap: wrap;
+}
+.heading-item{
+    flex-basis: 50%;
+    max-width: 100%;
+    /* background-color: yellow;
+    border:1px solid red; */
+
+}
+.heading-item-1{
+
+}
+.heading-item-3{
+
+}
+    
+.addClient{
+    color:#1075CA;
+    font-size: 30px; 
+    font-weight: 600;
+}
+.marketing{
+    color:gray;
+    font-size: 14px; 
+    font-weight: 600;
+    margin-top: 0px;
+}
+.path{
+    color:gray;
+    font-size: 12px; 
+    font-weight: 600;
+    margin-top: 10px;
+}
+.bcbtn{
+    background-color:#E8FFF3;
+     padding: 10px 15px 10px 15px;
+      border-radius: 5px;
+      border: 1px solid green;
+      float: left;
+      font-weight: 800;   
+}
+
+@media only screen and (max-width: 600px){
+    .heading-item{
+        flex-basis: 100%;
+    }
+}
+
+/*----------------./Right Bar----------------------------------------------------------------------------*/
+
+
+
+
+
+

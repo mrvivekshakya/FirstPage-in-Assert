@@ -39,8 +39,8 @@
 .lnavbar{
     margin: 0px;
     padding: 0px;
-    min-width: 300px;
-    box-shadow: 0px 2px 3px 0px gray inset;
+    box-shadow: 0px 1px 7px 0px lightgray;
+    z-index: 1;
 }
 
 .lnavbar ul{
@@ -54,25 +54,32 @@
 
 .lnavbar ul a{
     text-decoration: none;
-    color: black;
+    color: gray;
     text-align: left;
     font-family: arial;
-    padding: 10px 20px 10px 30px;
+    padding: 20px 20px 20px 40px;
     display: block;
   
 }
 
+.lnavbar ul a .icon{
+    color: gray;
+    
+}
 .lnavbar ul a:hover{
     cursor: pointer;
     background-color: #E3FAEC ;
+    border-left: 4px solid #498ED1;
+    padding: 20px 20px 20px 36px;
+    color: black;
+    
 }
 
 .lnavbar ul a:hover .icon{
     color: #498ED1;
+    
 }
-.lnavbar ul a:hover{
-    font-weight: 700;
-}
+
 
 
 /*---------Horizontal Navbar------------*/
@@ -92,7 +99,7 @@
 
 .hnavbar ul{
     overflow: hidden;
-    margin: 0px;
+    margin: 0px 35px;
     padding: 0px;
 }
 
@@ -100,11 +107,12 @@
 .hnavbar ul a{
     text-decoration: none;
     float: left;
-    color: black;
+    color: gray;
     text-align: left;
     font-family: arial;
-    padding: 10px;
-    display: block;
+    padding: 15px 5px 10px 5px;
+    display: inline;
+ 
   
 }
 
@@ -125,6 +133,18 @@
     display: hidden;
 }
 
+.personal{
+    color:#2D3139;
+    font-size: 17px; 
+    margin: 10px 0px 5px 30px; 
+    font-weight: 600;
+}
+.enquiry{
+    style="color:#2D3139;
+    font-size: 17px; 
+    margin: 10px 0px 5px 30px; 
+    font-weight: 600;"
+}
 .col50{
     display: grid;
     grid-template-columns: auto auto;
@@ -132,11 +152,11 @@
 }
 .bcbtn{
     background-color:#E8FFF3;
-    margin:30px 30px 0px 0px;
-     padding: 10px 15px 10px 15px;
+     margin:40px 10px 0px 0px;
+     padding: 10px 12px 10px 12px;
       border-radius: 5px;
       border: 1px solid green;
-      float: left;
+      float: right;
       font-weight: 800;
      
     
@@ -156,15 +176,14 @@
 .col1{
     display: grid;
     grid-template-columns: auto;
-    padding: 0px 20px 0px 20px;
 }
 
 input{
     border:1px solid gray;
     box-shadow: 1px 1px 4px lightgray;
-    min-height: 30px;
+    min-height: 40px;
     width: 100%;
-    max-width: 100%;
+    max-width: 97%;
     height: auto;
     border-radius: 3px;
     border: none;
@@ -175,42 +194,57 @@ input{
 select{
     border:1px solid gray;
     box-shadow: 1px 1px 4px lightgray;
-    min-height: 30px;
+    min-height: 40px;
     width: 100%;
-    min-width: 103%;
+    max-width: 100%;
     height: auto;
     border-radius: 3px;
     border: none;
     margin: 10px;
-    padding: 0px 0px 0px 10px;
+    padding: 0px 10px 0px 10px;
 }
 select,option{
     color: gray;
 }
 .col33{
-    padding: 10px;
+    padding: 0px 20px 0px 0px;
+}
+.div_ancbtn{
+    text-align: right;
+    padding-right: 20px;
+    margin: 10px 0px 0px 10px;
+}
+.div_cbtn{
+    padding-left: 10px;
+    margin: 10px 10px 0px 10px;
 }
 .ancbtn{
     background-color:#107DD7;
     color: white;
-    margin:30px 30px 0px 0px;
-     padding: 8px 60px 8px 60px;
+    
+    width: 100%;
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+     max-width: 400px;
       border-radius: 3px;
       border: 0px solid #107DD7;
       font-weight: 800;  
-      text-align: right;
+     
 }
 
 .cbtn{
     background-color:#E62F2F;
     color: white;
-    margin:30px 30px 0px 0px;
-     padding: 8px 100px 8px 100px;
+    width: 100%;
+    text-align: center;
+    margin-right: 50px;
+    padding: 10px 0px 10px 0px;
+     max-width: 400px;
       border-radius: 3px;
       border: 0px solid #E62F2F;
       float: left;
       font-weight: 800;  
-      text-align: right;
+      
 }
 /*//////////////////////////////////////////////////////*/
 @media only screen and (max-width: 1200px){
@@ -218,15 +252,88 @@ select,option{
         grid-template-columns: 50% 50%;
     }
 }
-@media only screen and (max-width: 992px){
-    .col3{
+
+/*------------------------------------------------------------------*/
+
+#collapse {
+    display: none;
+  }
+  
+  #collapse:target {
+    display: block;
+  }
+
+/*-------------------------------------------------------------------*/
+@media only screen and (max-width: 1200px){
+    .mcol{
+        display: grid;
         grid-template-columns: 100%;
     }
     .lnavbar{
         display: none;
+        position: absolute;
     }
-    .mcol{
+}
+@media only screen and (max-width: 1024px){
+    input{
+        max-width: 97.9%;
+    }
+}
+
+}
+@media only screen and (max-width: 992px){
+    .col3{
+        grid-template-columns: 50% 50%%;
+    }
+    input{
+        max-width: 98%;
+    }
+   
+}
+@media only screen and (max-width: 600px){
+    .col3{
         grid-template-columns: 100%;
+        padding: 0px 0px 0px 0px;
     }
+    .col2{
+        grid-template-columns: 100%;
+        padding: 0px 0px 0px 0px;
+    }
+    .personal{
+        margin: 10px 0px 5px 10px; 
+    }
+    .enquiry{
+        margin: 10px 100px 5px 10px;
+    }
+    input{
+        max-width: 97.2%;
+    }
+    .bcbtn{
+        float: left;
+        margin:10px 10px 0px 10px;
+    }
+    .div_ancbtn{
+        text-align: right;
+        padding-right: 10px;
+        margin: 10px 0px 0px 10px;
+    }
+    .div_cbtn{
+        padding-left: 0px;
+        margin: 10px 10px 0px 10px;
+    }
+    .ancbtn{
+      max-width: 100%;
+    }
+    .cbtn{
+        max-width: 100%;
+    }
+}
+.logo{
+    margin-top:10px;
+    margin-left: 0px;
+    width: 100px;
+}
+.logout{
+    margin-top: 175px;
 }
 
