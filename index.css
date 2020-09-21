@@ -1,3 +1,80 @@
+/*-----------------After Completing*-------------------------------*/
+.fright{
+    float: right;
+}
+.toggle-icon{
+    font-size: 20px; 
+    color: gray;
+}
+.align{
+    float: left;
+    vertical-align: middle;
+    margin-top: 10px;
+    margin-left:10px;
+    width: 40px;
+}
+.user-photo{
+    border-radius: 50%; 
+    float: left;
+    margin-right: 5px;
+}
+.down{
+    font-size: 20px;
+    margin-top: 10px;
+    color: gray;
+}
+.welcome{
+    font-size:14px;
+    color:black;
+    padding-top: 5px;"
+}
+.vivek{
+    font-size:11px;
+    color:gray;
+}
+
+.client{
+    color:#1075CA;
+    font-size: 30px; 
+    margin:10px 10px 0px 10px; 
+    font-weight: 600;
+}
+.bell-div{
+    padding-top: 3px;
+    margin-right: 10px;
+}
+.bell-icon{
+    font-size: 26px;
+    margin-top: 3px;
+    color: gray;
+}
+.market{
+    color:gray;
+    font-size: 14px; 
+    margin: 0px 10px 10px 10px; 
+    font-weight: 600;
+}
+.home{
+    color:gray;
+    font-size: 12px; 
+    margin: 10px; 
+    font-weight: 600;
+}
+
+.vcf{
+    margin:0px 0px 0px 15px;
+}
+.rightbar{
+    background-color:#EAF8EF;
+}
+.toppart{
+    padding: 5px;
+    font-family: arial;
+}
+.cblue{
+    color:#1075CA;
+}
+/*-----------------./After Completeing------------------------------*/
 *{
     margin: 0px;
     padding: 0px;
@@ -7,26 +84,15 @@
     max-width: 100%;
     width: 100%;
     height: auto;
-    
 }
 .mcol{
     display: grid;
-    grid-template-columns: 17% 83%;
-    
-   
-   
+    grid-template-columns: 17% 83%;  
 }
-
-.mcoll{
-  
-}
-
 .icon{
     font-size: 20px;
+    margin-right: 10px;
 }
-
-
-
 /*---------Left Navbar------------*/
 .nav-header{
     text-align: center;
@@ -48,18 +114,14 @@
     margin: 0px;
     padding: 0px;
     height: 100%;
-
 }
-
-
 .lnavbar ul a{
     text-decoration: none;
     color: gray;
     text-align: left;
     font-family: arial;
     padding: 20px 20px 20px 40px;
-    display: block;
-  
+    display: block; 
 }
 .active{
     cursor: pointer;
@@ -68,27 +130,20 @@
     padding: 20px 20px 20px 36px;
     color: black;
 }
-
 .lnavbar ul a .icon{
-    color: gray;
-    
+    color: gray;  
 }
 .lnavbar ul a:hover{
     cursor: pointer;
     background-color: #E3FAEC ;
     border-left: 4px solid #498ED1;
     padding: 20px 20px 20px 36px;
-    color: black;
-    
+    color: black;   
 }
 
 .lnavbar ul a:hover .icon{
-    color: #498ED1;
-    
+    color: #498ED1;   
 }
-
-
-
 /*---------Horizontal Navbar------------*/
 .nav-header{
     text-align: center;
@@ -103,43 +158,31 @@
     padding: 0px;
     background-color: white;
 }
-
 .hnavbar ul{
     overflow: hidden;
     margin: 0px 35px;
     padding: 0px;
 }
-
-
 .hnavbar ul a{
     text-decoration: none;
-    float: left;
     color: gray;
     text-align: left;
     font-family: arial;
     padding: 15px 5px 10px 5px;
-    display: inline;
- 
-  
+    display: inline; 
 }
-
 .hnavbar ul a:hover{
     cursor: pointer;
     vertical-align: middle;
 }
-
 .hnavbar ul a:hover{
     color: #498ED1;
-    vertical-align: middle;
-    
+    vertical-align: middle;   
 }
-
 /*-----------------*/
-
 .logout{
     display: hidden;
 }
-
 .personal{
     color:#2D3139;
     font-size: 17px; 
@@ -164,11 +207,8 @@
       border-radius: 5px;
       border: 1px solid green;
       float: right;
-      font-weight: 800;
-     
-    
+      font-weight: 800;  
 }
-
 .col3{
     display: grid;
     grid-template-columns: 33.33333333% 33.33333333% 33.33333333%;
@@ -179,12 +219,10 @@
     grid-template-columns: 50% 50%;
     padding: 0px 20px 0px 20px;
 }
-
 .col1{
     display: grid;
     grid-template-columns: auto;
 }
-
 input{
     border:1px solid gray;
     box-shadow: 1px 1px 4px lightgray;
@@ -237,10 +275,8 @@ select,option{
      max-width: 350px;
       border-radius: 3px;
       border: 0px solid #107DD7;
-      font-weight: 800;  
-     
+      font-weight: 800;      
 }
-
 .cbtn{
     background-color:#E62F2F;
     color: white;
@@ -252,8 +288,7 @@ select,option{
       border-radius: 3px;
       border: 0px solid #E62F2F;
       float: left;
-      font-weight: 800;  
-      
+      font-weight: 800;    
 }
 /*//////////////////////////////////////////////////////*/
 @media only screen and (max-width: 1200px){
@@ -261,17 +296,14 @@ select,option{
         grid-template-columns: 50% 50%;
     }
 }
-
 /*------------------------------------------------------------------*/
 
 #collapse {
     display: none;
-  }
-  
-  #collapse:target {
+  }  
+#collapse:target {
     display: block;
   }
-
 /*-------------------------------------------------------------------*/
 @media only screen and (max-width: 1200px){
     .mcol{
@@ -288,7 +320,6 @@ select,option{
         max-width: 97.9%;
     }
 }
-
 }
 @media only screen and (max-width: 992px){
     .col3{

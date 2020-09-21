@@ -1,9 +1,31 @@
+/*-----------------------------------After making-----------------------------------------------------*/
+.more{
+    padding: 14px 0px 14px 16px;
+    float: left;
+    vertical-align: middle;
+    margin-top: 11px;"
+}
+.micon{
+    color:  #498ED1;
+    padding: 6px 0px 6px 0px;
+    float: left;
+    vertical-align: middle;
+    margin-top: 16px;
+}
+.table-div{
+    padding:0px 30px 0px 25px;
+}
+/*-----------------------------------After making-----------------------------------------------------*/
+
 /*--------------------------------Top Nav -------------------------------------------------------------*/
 .topnav-item{
     float: left;vertical-align: middle;margin-top: 11px; padding: 14px 10px;
 }
 .logout1{
     margin-top: 270px;
+}
+.vcf{
+    margin:0px 0px 0px 15px;
 }
 
 /*--------------------------------./Top Nav -------------------------------------------------------------*/
