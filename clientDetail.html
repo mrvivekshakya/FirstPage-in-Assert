@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons"
+      rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="clientDetail.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="container">
+        <div class="mcol">
+                <div class="lnavbar" >
+                    <ul>
+                        <div class="nav-header"><img src="img/logo.png" alt="logo" width="" class="logo"></div>
+                        <a href="#"><i class="fas fa-tachometer-alt icon"></i>&nbsp;&nbsp;Dashboard</a>
+                        <a href="index.html"><i class="far fa-user icon"></i>&nbsp;&nbsp;&nbsp;Client Details</a>
+                        <a href="clientDetail.html" class="active"><i class="far fa-edit icon"></i>&nbsp;&nbsp;&nbsp;Enquiry Details</a>
+                        <a href="#"><i class="far fa-calendar-alt icon"></i>&nbsp;&nbsp;&nbsp;Work Calender</a>
+                        <a href="#"><i class="far fa-bell icon"></i>&nbsp;&nbsp;&nbsp;Notifications</a>
+                        <a href="#"><i class="far fa-user icon"></i>&nbsp;&nbsp;&nbsp;Profile</a>
+                        <a href="#" class="logout1"><i class="fas fa-sign-out-alt icon"></i>&nbsp;&nbsp;&nbsp;Logout</a>
+                    </ul>
+
+                </div>
+           
+            <div style="background-color:#EAF8EF ">
+                <div class="hnavbar">
+                    <ul class="lul">
+                    
+                        <a href="#" style="float: left;vertical-align: middle;margin-top: 10px;margin-left:10px;width: 40px;" ><i class="fas fa-align-left " style="font-size: 20px; color: gray;"></i>&nbsp;&nbsp;&nbsp;</a>
+                        <a href="#" style="color: #498ED1; float: left;vertical-align: middle;margin-top: 11px; padding: 14px 10px;">Marketing and Sales</a></li>
+                        <a href="#" style="float: left;vertical-align: middle;margin-top: 11px; padding: 14px 10px;">Production Department</a>
+                        <a href="#" style="float: left;vertical-align: middle;margin-top: 11px; padding: 14px 10px;">Purchase Department</a>
+                        <a href="#" style="float: left;vertical-align: middle;margin-top: 11px; padding: 14px 10px;">Purchase Department</a>
+                        <a href="#" style="padding: 14px 0px 14px 16px;float: left;vertical-align: middle;margin-top: 11px;">More</a>
+                        <a href="#" class="top-three-dot" style="padding: 6px 0px 6px 0px;float: left;vertical-align: middle;margin-top: 15px;" class="material-icons"><span style="color:  #498ED1;" class="material-icons">more_vert</span></a>
+                        <a href="#" style="float: right;"><img src="img/vivek.jpg" style="border-radius: 50%; float: left;" alt="" width="40">&nbsp;&nbsp;<i class="fas fa-angle-down" style="font-size: 20px;margin-top: 10px;color: gray;"></i></a>
+                        <a href="#" style="float: right;"><div style="font-size:14px;color:black;padding-top: 5px;">Welcome Back</div><div style="font-size:11px;color:gray;" class="">Vivek</div></a>
+                        <a href="#collapse" style="float: right;"><div style=";padding-top: 3px;margin-right: 10px;"><i class="far fa-bell" style="font-size: 26px;margin-top: 3px;color: gray;"></i></div></a>
+                    </ul>
+                </div>
+                <div style="padding: 5px;font-family: arial;">
+                    <div class="col2">
+                        <div>
+                            <div style="color:#1075CA;font-size: 30px; margin: 10px 10px 2px 10px; font-weight: 600;">Enquiry Details</div>
+                            <div style="color:gray;font-size: 14px; margin: 0px 10px 10px 10px; font-weight: 600;">Marketing & Sales</div>
+                            <div style="color:gray;font-size: 12px; margin: 10px; font-weight: 600;">Home > <span style="color:#1075CA;">Enquiry Details</span></div>
+                        </div>
+                        
+                        <div style="">
+                            <button class="addcbtn">Add Client&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-plus-circle" aria-hidden="true"></i></button>
+                            <button class="applyfbtn">Apply Filter&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-filter" aria-hidden="true"></i></button>
+                            <button class="addebtn">Add Enquiry&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-filter" aria-hidden="true"></i></button>
+
+                        </div>
+                    </div>
+                    <div class="col1">
+                        <div>
+                            <ul class="topnav">
+                                <li><a href="#" style="color:  #498ED1;">Enquiry Pending<hr style="color: #107DD7;;"/></a></li>
+                                <li><a href="#">Under Negotiation<hr/></a></li>
+                                <li><a href="#">PO Awaited<hr/></a></li>
+                                <li><a href="#">PO Awaited<hr/></a></li>
+                                <li><a href="#">PO Awaited<hr/></a></li>
+                                <li><a href="#">PO Received<hr/></a></li>
+                                <li><a href="#">Enquiry Closed<hr/></a></li>
+                                <li><a href="#">No Response<hr/></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="enquiry_navbar col2" style="padding: 0px 25px 0px 30px;">
+                        <div>
+                            <strong>Show</strong> 
+                            <select name="rows" id="rows" placeholder="10" style="width: 50px;height: 20px;">
+                                <option value="">10</option>
+                                <option value="">20</option>
+                                <option value="">30</option>
+                                <option value="">40</option>
+                                <option value="">50</option>
+                            </select><strong> Enteries</strong>
+                        </div>
+                        <div><input type="search" id="search" class="client_search" placeholder="Search By Client"></div>
+                    </div>
+                    <div class="col1" style="padding:0px 30px 0px 25px">
+                        <div>
+                            <table cellspacing="15" class="client_table">
+                                <tr class="tr">
+                                    <th class="th">S. No.</th>
+                                    <th class="th">Client Name</th>
+                                    <th class="th">Phone Number</th>
+                                    <th class="th">Client Details</th>
+                                    <th class="th">Enquiry Details</th>
+                                    <th class="th">Created On</th>
+                                    <th class="th">Last Enquiry On</th>
+                                    <th class="th">Status</th>
+                                </tr>
+                                <tr class="tr">
+                                    <td class="td">1</td>
+                                    <td class="td">Ajay Kumar</td>
+                                    <td class="td">999-999-9999</td>
+                                    <td class="td">New Client for...</td>
+                                    <td class="td">Enquiry Details</td>
+                                    <td class="td">02/09/2020</td>
+                                    <td class="td">02/09/2020</td>
+                                    <td class="td"><button class="pending">Pending</button><span class="velli">&vellip;</span></td>
+                                </tr>
+                                <tr class="tr">
+                                    <td class="td">2</td>
+                                    <td class="td">Ajay Kumar</td>
+                                    <td class="td">999-999-9999</td>
+                                    <td class="td">New Client for...</td>
+                                    <td class="td">Enquiry Details</td>
+                                    <td class="td">02/09/2020</td>
+                                    <td class="td">02/09/2020</td>
+                                    <td class="td"><button class="process">Process</button><span class="velli">&vellip;</span></td>
+                                </tr>
+                                <tr class="tr">
+                                    <td class="td">3</td>
+                                    <td class="td">Ajay Kumar</td>
+                                    <td class="td">999-999-9999</td>
+                                    <td class="td">New Client for...</td>
+                                    <td class="td">Enquiry Details</td>
+                                    <td class="td">02/09/2020</td>
+                                    <td class="td">02/09/2020</td>
+                                    <td class="td"><button class="done">Done</button><span class="velli">&vellip;</span></td>
+                                </tr>
+                                <tr class="tr">
+                                    <td class="td">4</td>
+                                    <td class="td">Ajay Kumar</td>
+                                    <td class="td">999-999-9999</td>
+                                    <td class="td">New Client for...</td>
+                                    <td class="td">Enquiry Details</td>
+                                    <td class="td">02/09/2020</td>
+                                    <td class="td">02/09/2020</td>
+                                    <td class="td"><button class="pending">Pending</button><span class="velli">&vellip;</span></td>
+                                </tr>
+                                <tr class="tr">
+                                    <td class="td">5</td>
+                                    <td class="td">Ajay Kumar</td>
+                                    <td class="td">999-999-9999</td>
+                                    <td class="td">New Client for...</td>
+                                    <td class="td">Enquiry Details</td>
+                                    <td class="td">02/09/2020</td>
+                                    <td class="td">02/09/2020</td>
+                                    <td class="td"><button class="pending">Pending</button><span class="velli">&vellip;</span></td>
+                                </tr>
+                               
+                               
+                            </table>
+                        </div>
+                    </div>
+                    <div class="col2" style="padding:20px 30px 30px 30px">
+                        <div>Showing 1 to 10 of 1000 Enteries</div>
+                        <div style="text-align: right;">
+                            Previous
+                            <span class="paging"><a href="#" class="paging-link"  style="background-color:#046FC7; ; color: white;">1</a></span>
+                            <span class="paging"><a href="#" class="paging-link">2</a></span>
+                            <span class="paging"><a href="#" class="paging-link">3</a></span>
+                            <span class="paging"><a href="#" class="paging-link">4</a></span>
+                            <span class="paging"><a href="#" class="paging-link">5</a></span>
+                            <span class="paging"><a href="#" class="paging-link">6</a></span>
+                            <span class="paging"><a href="#" class="paging-link">7</a></span>
+                            <span class="paging"><a href="#" class="paging-link">8</a></span>
+                            Next
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    
+</body>
+</html>
+

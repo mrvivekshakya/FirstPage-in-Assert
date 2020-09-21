@@ -1,0 +1,181 @@
+.logout1{
+    margin-top: 318px;
+}
+
+.addcbtn{
+    background-color: #E8FFF3;
+    margin: 40px 10px 0px 0px;
+    padding: 10px 12px 10px 12px;
+    border-radius: 5px;
+    border: 1px solid green;
+    float: right;
+    font-weight: 800;
+}
+.applyfbtn{
+    background-color: #FDF7D5;
+    margin: 40px 10px 0px 0px;
+    padding: 10px 12px 10px 12px;
+    border-radius: 5px;
+    border: 1px solid #dfc94f;
+    float: right;
+    font-weight: 800;
+}
+.addebtn{
+    background-color: #E9F5FF;
+    margin: 40px 10px 0px 0px;
+    padding: 10px 12px 10px 12px;
+    border-radius: 5px;
+    border: 1px solid #5BA0D6;
+    float: right;
+    font-weight: 800;
+}
+
+.col11{
+    display: grid;
+    grid-template-columns: auto;
+}
+
+/*----------------CSS for top navbar--------------------------------------*/
+
+ul.topnav {
+    list-style-type: none;
+    margin: 0px 30px 0px 30px;
+    padding: 0px;
+    overflow: hidden;
+    background-color:white;
+  }
+  
+  ul.topnav li {float: left;}
+  
+  ul.topnav li a {
+    display: block;
+    color: #2D3139;;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  /* hr{
+      color: #107DD7;
+      background-color: #107DD7;
+      height: 0.5px;
+  } */
+  .top-three-dot{
+      padding: 0px;
+      margin: 0px;
+      font-size: 26px;
+  }
+  
+  ul.topnav li a:hover{
+      color: #107DD7;
+  }
+  ul.topnav li a:hover hr{
+    color: #107DD7;
+}
+  
+  @media screen and (max-width: 600px) {
+    ul.topnav li.right, 
+    ul.topnav li {float: none;}
+  }
+/*----------------./CSS for top navbar-------------------------------------*/
+
+/*----------------------------Enauiry Navbar-------------------------------*/
+
+/* .enquiry_navbar{
+    margin: 0px;
+    padding: 0px;
+    min-width: 300px;
+
+}
+
+.enquiry_navbar ul{
+    overflow: hidden;
+    margin: 0px 40px 0px 40px;
+    padding: 0px;
+    height: 100%;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: white;
+} */
+
+/*----------------------------./Enauiry Navbar-------------------------------*/
+
+.check_sno{
+    border: 1px solid gray;
+    box-shadow: 1px 1px 4px lightgrey;
+    min-height: 17px; 
+    width: 100%; 
+    max-width: 22%; 
+    height: auto;
+    border-radius: 3px;
+    border: none;
+    margin: 10px;
+    color: gray;
+    padding: 0px 0px 0px 10px;
+}
+/*-----------------------------Client Table---------------------------------------*/
+.client_table{
+    border-collapse: separate;
+    border-spacing:0 10px;
+    width: 100%;
+    max-width: 100%;
+}
+.th{
+    font-weight: 500;
+    background-color: #046FC7;
+    padding: 14px 5px;
+    color: white;
+}
+.td{
+    font-weight: 500;
+    padding: 14px 5px;
+    background-color: white;
+}
+{
+    color: gray;
+}
+
+/*-----------------------------../Client Table---------------------------------------*/
+
+/*-----------------------------Paging---------------------------------------*/
+.paging{
+
+}
+.paging-link{
+    text-decoration: none;
+    padding: 4px 8px;
+    color: gray;
+    box-shadow: 1px 1px 4px lightgray;
+    background-color: white;
+    border-radius: 3px;
+}
+/*-----------------------------./Paging---------------------------------------*/
+/*-----------------------------Status Button---------------------------------------*/
+.pending{
+    min-width: 65px;
+    border: 1px solid #EB5555;
+    border-radius: 5px;
+    background-color: #FFEFEF;
+}
+.process{
+    min-width: 65px;
+    border: 1px solid  #5BA0D6;
+    border-radius: 5px;
+    background-color:#E9F5FF;
+}
+.done{
+    min-width: 65px;
+    border: 1px solid green;;
+    border-radius: 5px;
+    background-color: #E8FFF3;
+}
+
+.velli{
+    font-size: 20px;
+    color: blue;
+    padding: 0px 8px;
+}
+/*-----------------------------./Status Button---------------------------------------*/
+
+
+
