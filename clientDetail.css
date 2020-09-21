@@ -1,6 +1,12 @@
-.logout1{
-    margin-top: 318px;
+/*--------------------------------Top Nav -------------------------------------------------------------*/
+.topnav-item{
+    float: left;vertical-align: middle;margin-top: 11px; padding: 14px 10px;
 }
+.logout1{
+    margin-top: 270px;
+}
+
+/*--------------------------------./Top Nav -------------------------------------------------------------*/
 
 .addcbtn{
     background-color: #E8FFF3;
@@ -51,7 +57,7 @@ ul.topnav {
     display: block;
     color: #2D3139;;
     text-align: center;
-    padding: 14px 16px;
+    padding: 14px 15px;
     text-decoration: none;
   }
   /* hr{
@@ -102,7 +108,7 @@ ul.topnav {
 
 .check_sno{
     border: 1px solid gray;
-    box-shadow: 1px 1px 4px lightgrey;
+    box-shadow: 0px 0px 0px lightgrey;
     min-height: 17px; 
     width: 100%; 
     max-width: 22%; 
@@ -123,12 +129,12 @@ ul.topnav {
 .th{
     font-weight: 500;
     background-color: #046FC7;
-    padding: 14px 5px;
+    padding: 8px 5px;
     color: white;
 }
 .td{
     font-weight: 500;
-    padding: 14px 5px;
+    padding: 8px 5px;
     background-color: white;
 }
 {

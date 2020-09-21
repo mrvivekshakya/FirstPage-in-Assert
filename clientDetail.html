@@ -34,9 +34,9 @@
                     
                         <a href="#" style="float: left;vertical-align: middle;margin-top: 10px;margin-left:10px;width: 40px;" ><i class="fas fa-align-left " style="font-size: 20px; color: gray;"></i>&nbsp;&nbsp;&nbsp;</a>
                         <a href="#" style="color: #498ED1; float: left;vertical-align: middle;margin-top: 11px; padding: 14px 10px;">Marketing and Sales</a></li>
-                        <a href="#" style="float: left;vertical-align: middle;margin-top: 11px; padding: 14px 10px;">Production Department</a>
-                        <a href="#" style="float: left;vertical-align: middle;margin-top: 11px; padding: 14px 10px;">Purchase Department</a>
-                        <a href="#" style="float: left;vertical-align: middle;margin-top: 11px; padding: 14px 10px;">Purchase Department</a>
+                        <a href="#" class="topnav-item">Production Department</a>
+                        <a href="#" class="topnav-item">Purchase Department</a>
+                        <a href="#" class="topnav-item">Purchase Department</a>
                         <a href="#" style="padding: 14px 0px 14px 16px;float: left;vertical-align: middle;margin-top: 11px;">More</a>
                         <a href="#" class="top-three-dot" style="padding: 6px 0px 6px 0px;float: left;vertical-align: middle;margin-top: 15px;" class="material-icons"><span style="color:  #498ED1;" class="material-icons">more_vert</span></a>
                         <a href="#" style="float: right;"><img src="img/vivek.jpg" style="border-radius: 50%; float: left;" alt="" width="40">&nbsp;&nbsp;<i class="fas fa-angle-down" style="font-size: 20px;margin-top: 10px;color: gray;"></i></a>
@@ -76,7 +76,7 @@
                     <div class="enquiry_navbar col2" style="padding: 0px 25px 0px 30px;">
                         <div>
                             <strong>Show</strong> 
-                            <select name="rows" id="rows" placeholder="10" style="width: 50px;height: 20px;">
+                            <select name="rows" id="rows" placeholder="10" style="width: 80px;height: 10px;">
                                 <option value="">10</option>
                                 <option value="">20</option>
                                 <option value="">30</option>
@@ -90,7 +90,7 @@
                         <div>
                             <table cellspacing="15" class="client_table">
                                 <tr class="tr">
-                                    <th class="th">S. No.</th>
+                                    <th class="th"><input type="checkbox" name="sno" id="sno" class="check_sno">S. No.</th>
                                     <th class="th">Client Name</th>
                                     <th class="th">Phone Number</th>
                                     <th class="th">Client Details</th>
@@ -100,7 +100,7 @@
                                     <th class="th">Status</th>
                                 </tr>
                                 <tr class="tr">
-                                    <td class="td">1</td>
+                                    <td class="td"><input type="checkbox" name="sno" id="sno" class="check_sno">1</td>
                                     <td class="td">Ajay Kumar</td>
                                     <td class="td">999-999-9999</td>
                                     <td class="td">New Client for...</td>
@@ -110,7 +110,7 @@
                                     <td class="td"><button class="pending">Pending</button><span class="velli">&vellip;</span></td>
                                 </tr>
                                 <tr class="tr">
-                                    <td class="td">2</td>
+                                    <td class="td"><input type="checkbox" name="sno" id="sno" class="check_sno">2</td>
                                     <td class="td">Ajay Kumar</td>
                                     <td class="td">999-999-9999</td>
                                     <td class="td">New Client for...</td>
@@ -120,7 +120,7 @@
                                     <td class="td"><button class="process">Process</button><span class="velli">&vellip;</span></td>
                                 </tr>
                                 <tr class="tr">
-                                    <td class="td">3</td>
+                                    <td class="td"><input type="checkbox" name="sno" id="sno" class="check_sno">3</td>
                                     <td class="td">Ajay Kumar</td>
                                     <td class="td">999-999-9999</td>
                                     <td class="td">New Client for...</td>
@@ -130,7 +130,7 @@
                                     <td class="td"><button class="done">Done</button><span class="velli">&vellip;</span></td>
                                 </tr>
                                 <tr class="tr">
-                                    <td class="td">4</td>
+                                    <td class="td"><input type="checkbox" name="sno" id="sno" class="check_sno">4</td>
                                     <td class="td">Ajay Kumar</td>
                                     <td class="td">999-999-9999</td>
                                     <td class="td">New Client for...</td>
@@ -140,7 +140,7 @@
                                     <td class="td"><button class="pending">Pending</button><span class="velli">&vellip;</span></td>
                                 </tr>
                                 <tr class="tr">
-                                    <td class="td">5</td>
+                                    <td class="td"><input type="checkbox" name="sno" id="sno" class="check_sno">5</td>
                                     <td class="td">Ajay Kumar</td>
                                     <td class="td">999-999-9999</td>
                                     <td class="td">New Client for...</td>
@@ -154,7 +154,7 @@
                             </table>
                         </div>
                     </div>
-                    <div class="col2" style="padding:20px 30px 30px 30px">
+                    <div class="col2" style="padding:20px 30px 0px 30px">
                         <div>Showing 1 to 10 of 1000 Enteries</div>
                         <div style="text-align: right;">
                             Previous
