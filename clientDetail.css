@@ -244,11 +244,24 @@ th, td {
 .inline-a{
     display: none;
 }
+.col22{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.col222{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 0px 20px 0px 20px;
+}
 
 /*------------------MediaQuery-----------------------------------*/
 
 @media only screen and (max-width: 768px){
     .col22{
+        display: grid;
+        grid-template-columns: 100%;
+    }
+    .col222{
         display: grid;
         grid-template-columns: 100%;
     }
@@ -303,6 +316,12 @@ th, td {
     .buttons{
         text-align: center;
         width: 100%;
+    }
+    .top-three-dot{
+        display: none;
+    }
+    .none{
+        display: none;
     }
 
 }
