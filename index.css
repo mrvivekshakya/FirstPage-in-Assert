@@ -123,7 +123,7 @@
     padding: 20px 20px 20px 40px;
     display: block; 
 }
-.active{
+.lnavbar ul a.active{
     cursor: pointer;
     background-color: #E3FAEC ;
     border-left: 4px solid #498ED1;
@@ -132,6 +132,9 @@
 }
 .lnavbar ul a .icon{
     color: gray;  
+}
+.lnavbar ul a .iactive{
+    color: #498ED1;
 }
 .lnavbar ul a:hover{
     cursor: pointer;

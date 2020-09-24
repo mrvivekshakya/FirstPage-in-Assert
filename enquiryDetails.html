@@ -7,7 +7,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Material+Icons"
       rel="stylesheet">
     <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="clientDetail.css">
+    <link rel="stylesheet" href="enquiryDetails.css">
     <title>Document</title>
 </head>
 <body>
@@ -18,12 +18,12 @@
                     <ul>
                         <div class="nav-header"><img src="img/logo.png" alt="logo" width="" class="logo"></div>
                         <a href="#"><i class="fas fa-tachometer-alt icon"></i>Dashboard</a>
-                        <a href="index.html" class="active"><i class="far fa-user icon"></i>Client Details</a>
-                        <a href="clientDetail.html"><i class="far fa-edit icon"></i>Enquiry Details</a>
+                        <a href="index.html"><i class="far fa-user icon"></i>Client Details</a>
+                        <a href="clientDetail.html"  class="active"><i class="far fa-edit icon iactive"></i>Enquiry Details</a>
                         <a href="#"><i class="far fa-calendar-alt icon"></i>Work Calender</a>
                         <a href="#"><i class="far fa-bell icon"></i>Notifications</a>
                         <a href="#"><i class="far fa-user icon"></i>Profile</a>
-                        <a href="#" class="logout"><i class="fas fa-sign-out-alt icon"></i>Logout</a>
+                        <a href="#" class="logout active"><i class="fas fa-sign-out-alt icon aicon iactive"></i>Logout</a>
                     </ul>
 
                 </div>
@@ -47,9 +47,9 @@
                 <div class="toppart">
                     <div class="col222">
                         <div class="aleft">
-                            <div class="client">Add New Client</div>
+                            <div class="client">Enquiry Details</div>
                             <div class="market">Marketing & Sales</div>
-                            <div class="home">Home > <span class="cblue">Add New Client</span></div>
+                            <div class="home">Home > <span class="cblue">Client Details</span></div>
                         </div>
                         
                         <div class="aright buttons">
@@ -73,8 +73,8 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="enquiry_navbar col22" style="padding: 0px 25px 0px 30px;">
-                        <div>
+                    <div class="scol2">
+                        <div class="show">
                             <strong>Show</strong> 
                             <select name="rows" id="rows" placeholder="10" class="no-page">
                                 <option value="">10</option>
@@ -84,7 +84,7 @@
                                 <option value="">50</option>
                             </select><strong> Enteries</strong>
                         </div>
-                        <div><input type="search" id="search" class="client_search" placeholder="Search By Client" class="search-input"></div>
+                        <div class="search"><input type="search" id="search" class="client_search" placeholder="Search By Client"></div>
                     </div>
                     <div class="col1" class="table-div" style="padding:0px 30px 0px 25px;">
                         <div class="tb-parent-div">
