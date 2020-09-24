@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" href="clientDetails2.css">
+    <title>Client Details</title>
+    <script>
+        function first(){
+            a = document.getElementById('main-item-1').style;
+            if(a.display == "block"){
+                a.display = "none";
+            }else{
+                a.display = "block";
+            }
+            
+        }
+    </script>
+</head>
+<body>
+    <div class="main-container">
+        <div class="main-item" id="main-item-1">
+            <div class="lnavbar" >
+                <ul>
+                    <div class="nav-header"><img src="img/logo.png" alt="logo" width="" class="logo"></div>
+                    <a href="#"><i class="fas fa-tachometer-alt icon"></i>&nbsp;&nbsp;Dashboard</a>
+                    <a href="#"><i class="far fa-user icon"></i>&nbsp;&nbsp;&nbsp;Client Details</a>
+                    <a href="#"><i class="far fa-edit icon"></i>&nbsp;&nbsp;&nbsp;Enquiry Details</a>
+                    <a href="#"><i class="far fa-calendar-alt icon"></i>&nbsp;&nbsp;&nbsp;Work Calender</a>
+                    <a href="#"><i class="far fa-bell icon"></i>&nbsp;&nbsp;&nbsp;Notifications</a>
+                    <a href="#"><i class="far fa-user icon"></i>&nbsp;&nbsp;&nbsp;Profile</a>
+                    <a href="#" class="logout"><i class="fas fa-sign-out-alt icon"></i>&nbsp;&nbsp;&nbsp;Logout</a>
+                </ul>
+
+            </div>
+        </div>
+        <div class="main-item" id="main-item-2">
+            <!-- Header Navbar -->
+            <div class="header-container">
+                <div class="header-item" id="header-item-1" onclick="first()"><i class="fas fa-align-left "></i></div>
+                <div class="header-item" id="header-item-2">
+                    <ul class="topnav">
+                        <li><a href="#" style="color:  #498ED1;">Marketing and Sales</a></li>
+                        <li><a href="#">Production Department</a></li>
+                        <li><a href="#">Purchase Department</a></li>
+                        <li><a href="#">Purchase Department</a></li>
+                        <li><a href="#" style="padding: 14px 5px 14px 16px;">More</a>
+                        <li><a href="#" class="top-three-dot" style="padding: 6px 16px 6px 0px;">&vellip;</a>
+                    </ul>
+                </div>
+                <div class="header-item" id="header-item-3">
+                    <div class="profilebar-container">
+                        <div class="profilebar-item" id="profilebar-item-1"><i class="far fa-bell" style="font-size: 26px"></i></div>
+                        <div class="profilebar-item" id="profilebar-item-2">Welcome Back<div class="vivek">Vivek</div></div>
+                        <div class="profilebar-item" id="profilebar-item-3"><img src="img/vivek.jpg" alt="" width="40" class="profile"></div>
+                        <div class="profilebar-item" id="profilebar-item-4"><i class="fas fa-angle-down" style="color:gray;font-size:20px;font-weight:600;"></i></div>
+                    </div>
+                </div>
+            </div>
+            <!-- ./Header Navbar -->
+            <div class="rightbar">
+                <div class="heading-container">
+                    <div class="heading-item" id="heading-item-1">
+                        <div class="addClient">Add New Client</div>
+                        <div class="marketing">Marketing & Sales</div>
+                        <div class="path">Home > <span style="color:#1075CA;">Add New Client</span></div>
+                    </div>
+                    <div class="heading-item" id="heading-item-3"><button class="bcbtn">View Client&nbsp;&nbsp;<i class="far fa-eye"></i></button></div>
+                </div>
+                <div class="personal">
+                    <div class="personal-item">Personal Information</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons"
+      rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="clientDetail.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="container">
+        <div class="mcol">
+                <div class="lnavbar" >
+                    <ul>
+                        <div class="nav-header"><img src="img/logo.png" alt="logo" width="" class="logo"></div>
+                        <a href="#"><i class="fas fa-tachometer-alt icon"></i>Dashboard</a>
+                        <a href="index.html" class="active"><i class="far fa-user icon"></i>Client Details</a>
+                        <a href="clientDetail.html"><i class="far fa-edit icon"></i>Enquiry Details</a>
+                        <a href="#"><i class="far fa-calendar-alt icon"></i>Work Calender</a>
+                        <a href="#"><i class="far fa-bell icon"></i>Notifications</a>
+                        <a href="#"><i class="far fa-user icon"></i>Profile</a>
+                        <a href="#" class="logout"><i class="fas fa-sign-out-alt icon"></i>Logout</a>
+                    </ul>
+
+                </div>
+           
+            <div class="rightbar">
+                <div class="hnavbar">
+                    <ul class="lul">
+                    
+                        <a href="#" class="align"><i class="fas fa-align-left " class="toggle-icon"></i></a>
+                        <a href="#" class="topnav-item" >Marketing and Sales</a></li>
+                        <a href="#" class="topnav-item">Production Department</a>
+                        <a href="#" class="topnav-item">Purchase Department</a>
+                        <a href="#" class="topnav-item">Purchase Department</a>
+                        <a href="#" class="more inline-a">More</a>
+                        <a href="#" class="top-three-dot" class="material-icons inline-a"><span class="material-icons micon">more_vert</span></a>
+                        <a href="#" class="fright"><img src="img/vivek.jpg" class="user-photo" alt="user-photo" width="40"><i class="fas fa-angle-down down"></i></a>
+                        <a href="#" class="fright"><div class="welcome">Welcome Back</div><div class="vivek">Vivek</div></a>
+                        <a href="#collapse" class="fright"><div class="bell-div"><i class="far fa-bell bell-icon"></i></div></a>
+                    </ul>
+                </div>
+                <div class="toppart">
+                    <div class="col222">
+                        <div class="aleft">
+                            <div class="client">Add New Client</div>
+                            <div class="market">Marketing & Sales</div>
+                            <div class="home">Home > <span class="cblue">Add New Client</span></div>
+                        </div>
+                        
+                        <div class="aright buttons">
+                            <button class="addcbtn">Add Client<i class="fa fa-plus-circle vcf" aria-hidden="true"></i></button>
+                            <button class="applyfbtn">Apply Filter<i class="fa fa-filter vcf" aria-hidden="true"></i></button>
+                            <button class="addebtn">Add Enquiry<i class="fa fa-filter vcf" aria-hidden="true"></i></button>
+
+                        </div>
+                    </div>
+                    <div class="col1">
+                        <div>
+                            <ul class="topnav">
+                                <li><a href="#" style="color:  #498ED1;">Enquiry Pending<hr style="color: #107DD7;;"/></a></li>
+                                <li><a href="#">Under Negotiation<hr/></a></li>
+                                <li><a href="#">PO Awaited<hr/></a></li>
+                                <li><a href="#">PO Awaited<hr/></a></li>
+                                <li><a href="#">PO Awaited<hr/></a></li>
+                                <li><a href="#">PO Received<hr/></a></li>
+                                <li><a href="#">Enquiry Closed<hr/></a></li>
+                                <li><a href="#">No Response<hr/></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="enquiry_navbar col22" style="padding: 0px 25px 0px 30px;">
+                        <div>
+                            <strong>Show</strong> 
+                            <select name="rows" id="rows" placeholder="10" class="no-page">
+                                <option value="">10</option>
+                                <option value="">20</option>
+                                <option value="">30</option>
+                                <option value="">40</option>
+                                <option value="">50</option>
+                            </select><strong> Enteries</strong>
+                        </div>
+                        <div><input type="search" id="search" class="client_search" placeholder="Search By Client" class="search-input"></div>
+                    </div>
+                    <div class="col1" class="table-div" style="padding:0px 30px 0px 25px;">
+                        <div class="tb-parent-div">
+                            <table cellspacing="15" class="client_table">
+                                <tr class="tr">
+                                    <th class="th"><input type="checkbox" name="sno" id="sno" class="check_sno">S. No.</th>
+                                    <th class="th">Client Name</th>
+                                    <th class="th">Phone Number</th>
+                                    <th class="th">Client Details</th>
+                                    <th class="th">Enquiry Details</th>
+                                    <th class="th">Created On</th>
+                                    <th class="th">Last Enquiry On</th>
+                                    <th class="th">Status</th>
+                                </tr>
+                                <tr class="tr">
+                                    <td class="td"><input type="checkbox" name="sno" id="sno" class="check_sno">1</td>
+                                    <td class="td">Ajay Kumar</td>
+                                    <td class="td">999-999-9999</td>
+                                    <td class="td">New Client for...</td>
+                                    <td class="td">Enquiry Details</td>
+                                    <td class="td">02/09/2020</td>
+                                    <td class="td">02/09/2020</td>
+                                    <td class="td"><button class="pending">Pending</button><span class="velli">&vellip;</span></td>
+                                </tr>
+                                <tr class="tr">
+                                    <td class="td"><input type="checkbox" name="sno" id="sno" class="check_sno">2</td>
+                                    <td class="td">Ajay Kumar</td>
+                                    <td class="td">999-999-9999</td>
+                                    <td class="td">New Client for...</td>
+                                    <td class="td">Enquiry Details</td>
+                                    <td class="td">02/09/2020</td>
+                                    <td class="td">02/09/2020</td>
+                                    <td class="td"><button class="process">Process</button><span class="velli">&vellip;</span></td>
+                                </tr>
+                                <tr class="tr">
+                                    <td class="td"><input type="checkbox" name="sno" id="sno" class="check_sno">3</td>
+                                    <td class="td">Ajay Kumar</td>
+                                    <td class="td">999-999-9999</td>
+                                    <td class="td">New Client for...</td>
+                                    <td class="td">Enquiry Details</td>
+                                    <td class="td">02/09/2020</td>
+                                    <td class="td">02/09/2020</td>
+                                    <td class="td"><button class="done">Done</button><span class="velli">&vellip;</span></td>
+                                </tr>
+                                <tr class="tr">
+                                    <td class="td"><input type="checkbox" name="sno" id="sno" class="check_sno">4</td>
+                                    <td class="td">Ajay Kumar</td>
+                                    <td class="td">999-999-9999</td>
+                                    <td class="td">New Client for...</td>
+                                    <td class="td">Enquiry Details</td>
+                                    <td class="td">02/09/2020</td>
+                                    <td class="td">02/09/2020</td>
+                                    <td class="td"><button class="pending">Pending</button><span class="velli">&vellip;</span></td>
+                                </tr>
+                                <tr class="tr">
+                                    <td class="td"><input type="checkbox" name="sno" id="sno" class="check_sno">5</td>
+                                    <td class="td">Ajay Kumar</td>
+                                    <td class="td">999-999-9999</td>
+                                    <td class="td">New Client for...</td>
+                                    <td class="td">Enquiry Details</td>
+                                    <td class="td">02/09/2020</td>
+                                    <td class="td">02/09/2020</td>
+                                    <td class="td"><button class="pending">Pending</button><span class="velli">&vellip;</span></td>
+                                </tr>
+                               
+                               
+                            </table>
+                        </div>
+                    </div>
+                    <div class="col222" style="padding:20px 30px 0px 30px">
+                        <div class="aleft pp">Showing 1 to 10 of 1000 Enteries</div>
+                        <div class="aright pp">
+                            Previous
+                            <span class="paging"><a href="#" class="paging-link"  style="background-color:#046FC7; color: white;">1</a></span>
+                            <span class="paging"><a href="#" class="paging-link">2</a></span>
+                            <span class="paging"><a href="#" class="paging-link">3</a></span>
+                            <span class="paging"><a href="#" class="paging-link">4</a></span>
+                            <span class="paging"><a href="#" class="paging-link">5</a></span>
+                            <span class="paging"><a href="#" class="paging-link">6</a></span>
+                            <span class="paging none"><a href="#" class="paging-link">7</a></span>
+                            <span class="paging none"><a href="#" class="paging-link">8</a></span>
+                            Next
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    
+</body>
+</html>
+
